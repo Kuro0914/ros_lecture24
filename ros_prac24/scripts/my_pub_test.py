@@ -4,8 +4,8 @@ import rospy
 from geometry_msgs.msg import Twist
 
 cmd_vel = Twist()
-cmd_vel.linear.x = 2.0
-cmd_vel.angular.z = 0.8
+cmd_vel.linear.x = 1000.0
+cmd_vel.angular.z = 1000.0
 
 def autonomous_controller():
     rospy.init_node('my_pub_test')
